@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          light: "hsl(var(--primary-light))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -38,6 +39,7 @@ export default {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
+          light: "hsl(var(--accent-light))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -57,6 +59,29 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        campus: {
+          blue: "hsl(var(--campus-blue))",
+          "blue-light": "hsl(var(--campus-blue-light))",
+          "blue-lighter": "hsl(var(--campus-blue-lighter))",
+          green: "hsl(var(--campus-green))",
+          "green-light": "hsl(var(--campus-green-light))",
+          gray: "hsl(var(--campus-gray))",
+          "gray-light": "hsl(var(--campus-gray-light))",
+        },
+      },
+      backgroundImage: {
+        "gradient-campus": "var(--gradient-campus)",
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        campus: "var(--shadow-campus)",
+        card: "var(--shadow-card)",
+        glow: "var(--shadow-glow)",
+      },
+      transitionTimingFunction: {
+        smooth: "var(--transition-smooth)",
+        spring: "var(--transition-spring)",
       },
       borderRadius: {
         lg: "var(--radius)",
